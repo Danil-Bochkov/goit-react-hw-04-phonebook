@@ -4,7 +4,7 @@ import Notification from './Notification';
 
 const ContactList = ({ contacts, onDeleteContact }) => (
   <div className="contactsField">
-    {contacts.length < 0 ? (
+    {contacts?.length < 0 ? (
       <Notification message="You don't have any contact 😓" />
     ) : (
       <ul className="contactsList">

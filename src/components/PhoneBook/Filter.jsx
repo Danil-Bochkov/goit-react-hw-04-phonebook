@@ -22,8 +22,8 @@ const Filter = ({ filter, handleChange }) => {
 };
 
 Filter.propTypes = {
-  onNameChange: PropTypes.func,
-  name: PropTypes.string,
+  onChange: PropTypes.func,
+  filter: PropTypes.string,
 };
 
 export default Filter;
